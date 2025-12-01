@@ -1,6 +1,5 @@
 import React from 'react'
 import Catego from '../../assets/Categories.module.css';
-// import { div } from 'framer-motion/client';
 
 
 
