@@ -1,8 +1,8 @@
 import { img } from 'framer-motion/client'
 import React from 'react'
-import ofimg from '../../assets/Imges/offi.jpg'
-import oneoff from '../../assets/Imges/officeone.jpg'
-import offf from '../../assets/Imges/offoo.jpg'
+import Ofimg from '../../assets/Imges/offi.jpg'
+import Oneoff from '../../assets/Imges/officeone.jpg'
+import Offf from '../../assets/Imges/offoo.jpg'
 const offices = [
   {
     id: 1,
@@ -10,7 +10,7 @@ const offices = [
     address: "9514 Smoky Hollow St. Sulphur, LA 70663",
     phone: "(736) 267-8659",
     email: "rsmartin@gmail.com",
-    image: ofimg
+    image: Ofimg
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const offices = [
     address: "19 North Road Piscataway, NJ 08854",
     phone: "(736) 267-8659",
     email: "rsmartin@gmail.com",
-    image: oneoff
+    image: Oneoff
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const offices = [
     address: "8460 Rockville Ave. Greenville, NC 27834",
     phone: "(736) 267-8659",
     email: "rsmartin@gmail.com",
-    image: offf
+    image: Offf
   },
 ];
  
