@@ -1,6 +1,6 @@
 import React from 'react'
-import catego from '../../assets/Categories.module.css';
-import { div } from 'framer-motion/client';
+import Catego from '../../assets/Categories.module.css';
+// import { div } from 'framer-motion/client';
 
 
 
@@ -20,7 +20,7 @@ const citiesdata = [
   const Categories = () => {
   return (
     <div className="container mt-3 py-5">
-      <div className={catego.maincateco}>
+      <div className={Catego.maincateco}>
 
         <h3 className="text-light container">Featured Categories</h3>
         <p className="text-light container">
@@ -31,9 +31,9 @@ const citiesdata = [
           {citiesdata.map((city, index) => (
             <div
               key={index}
-              className={`shadow-sm ${catego['city-card']}`}
+              className={`shadow-sm ${Catego['city-card']}`}
             >
-              <div className={catego.cityimage}>
+              <div className={Catego.cityimage}>
                 <i className={city.icon} style={{ fontSize: "32px" }}></i>
               </div>
 
